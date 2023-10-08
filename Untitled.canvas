@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"d18f0e1626f65c54","type":"text","text":"OpenADR\naggregates and coordinates","x":-800,"y":700,"width":250,"height":60},
+		{"id":"d68a64df177e2eb4","type":"file","file":"Operator.md","x":-90,"y":444,"width":250,"height":286},
+		{"id":"3834414560f02e29","type":"text","text":"Consumer","x":530,"y":444,"width":250,"height":60},
+		{"id":"0a8f97340200a1e1","type":"text","text":"AMM","x":250,"y":440,"width":203,"height":68},
+		{"id":"593b312241d4169f","type":"file","file":"Community Treasury.md","x":-490,"y":80,"width":241,"height":228},
+		{"id":"e7a169ecfcbaa9bb","x":-147,"y":-125,"width":250,"height":60,"type":"text","text":"Community"},
+		{"id":"fe87179b2f1201c3","type":"file","file":"DER.md","x":300,"y":-160,"width":250,"height":117},
+		{"id":"f13094fa275907e3","type":"text","text":"Smart Meter","x":103,"y":194,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"fbfa3ff6bca4af6e","fromNode":"d68a64df177e2eb4","fromSide":"right","toNode":"0a8f97340200a1e1","toSide":"left","label":"kWh"},
+		{"id":"db7d5e5e49548001","fromNode":"3834414560f02e29","fromSide":"left","toNode":"0a8f97340200a1e1","toSide":"right","label":"ADA"},
+		{"id":"e4d597c3185e8bb5","fromNode":"d18f0e1626f65c54","fromSide":"top","toNode":"593b312241d4169f","toSide":"left","label":"is an alterntive"},
+		{"id":"5afe8ac6908d5957","fromNode":"593b312241d4169f","fromSide":"bottom","toNode":"d68a64df177e2eb4","toSide":"left","label":"provides energy"},
+		{"id":"3ab8d4a7efef4644","fromNode":"e7a169ecfcbaa9bb","fromSide":"right","toNode":"fe87179b2f1201c3","toSide":"left","label":"is a set of"}
+	]
+}
